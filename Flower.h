@@ -12,7 +12,7 @@ public:
 	string color;
 	int price;
 	string quantity;
-	int deliveryRate;
+	int delivery_rate;
 	Flower(double heigh, double size, string color, int price, int quantity, int deliveryRate) {
 		this->heigh = heigh;
 		this->size = size;
