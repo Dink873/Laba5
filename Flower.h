@@ -13,12 +13,12 @@ public:
 	int price;
 	string quantity;
 	int delivery_rate;
-	Flower(double heigh, double size, string color, int price, int quantity, int deliveryRate) {
+	Flower(double heigh, double size, string color, int price, int quantity, int delivery_rate) {
 		this->heigh = heigh;
 		this->size = size;
 		this->color = color;
 		this->price = price;
 		this->quantity = quantity;
-		this->deliveryRate = deliveryRate;
+		this->delivery_rate = delivery_rate;
 	}
 };
